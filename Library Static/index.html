@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library System</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="#">Library System</a>
+        <div>
+        <a href="#books">Books</a>
+        <a href="#register">Register</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Logout</a>
+        </div>
+    </nav>
+
+
+    <section id ="books" >
+        <div id="books-div">
+        <h3>Books</h3>
+        <table >
+            <tr>
+                <th>Book ID</th>
+                <th>Tittle</th>
+                <th>Author</th>
+                <th>Genre 1</th>
+                <th>Availability</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>
+                    <a href="#">Book Title 1</a>
+                    <table>
+                       <tr><td>Publication Date: 2004</td></tr>
+                        <tr><td>Page Count: 260</td></tr>
+                        <tr><td>ISBN: 123-456-789</td></tr>
+
+                    </table>
+                </td>
+                <td>Author Name 1</td>
+                <td>Genre1</td>
+                <td>Available</td>
+
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>
+                    <a href="#">Book Title 2</a>
+                    <table>
+                        <tr><td>Publication Date: 2005</td></tr>
+                        <tr><td>Page Count: 300</td></tr>
+                        <tr><td>ISBN: 123-456-879</td></tr>
+
+                    </table>
+                </td>
+                <td>Author Name 2</td>
+                <td>Genre 2</td>
+                <td>Not Available</td>
+
+            </tr>
+
+
+            <tr>
+                <td>3</td>
+                <td>
+                    <a href="#">Book Title 3</a>
+                    <table>
+                        <tr><td>Publication Date : 2008</td></tr>
+                        <tr><td>Page Count : 560</td></tr>
+                        <tr><td>ISBN : 123-456-989</td></tr>
+
+                    </table>
+                </td>
+                <td>Author Name 3</td>
+                <td>Genre 3</td>
+                <td>Available</td>
+
+            </tr>
+        </table>
+        </div>
+
+    </section>
+
+    <section id="register">
+        <div id="register-div">
+            <h3>Register</h3>
+            <form>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" required>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" required>
+            <label for="dob">Date Of Birth:</label>
+            <input type="date" id="dob" required>
+            <label for="age">Age:</label>
+            <input type="number" id="age" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+            <label for="pos">Password</label>
+            <input type="password" id="pos" required>
+            <label for="cpos">Confirm Password</label>
+            <input type="password" id="cpos" required>
+            <button type="submit" id="submit">Register</button>
+        </div>
+        
+
+        
+    </form>
+    </section>
+    
+
+</body>
+</html>
